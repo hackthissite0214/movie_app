@@ -1,1 +1,3 @@
-# movie_app
+# Movie_app 2020
+
+React JS Fundamentals

@@ -4,7 +4,10 @@ import ReactDOM from 'react-dom';
 import App from './App';
 //import * as serviceWorker from './serviceWorker';
 
-//  컴포넌트는 하나만
+//  react application은 한 번에 하나의 component만 rendering 할 수 있다!
+//  따라서 모든 것은 App 안에 들어가야 한다!
+//  App 안에 많은 component를 넣을 수 있다.
+//  그리고 이러한 component 안에 더 많은 component를 import 할 수 있다.
 ReactDOM.render(
   <React.StrictMode>
     <App />

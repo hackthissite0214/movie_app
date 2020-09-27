@@ -1,0 +1,12 @@
+const friends = ["da", "mark", "lynn", "japan guy"]
+
+map은 function을 취해서 그 function을 array의 각 item에 적용
+friends.map(function(current) {
+    console.log(current);
+    return 0
+})
+dal
+mark
+lynn
+japan guy
+(4) [0, 0, 0, 0]
